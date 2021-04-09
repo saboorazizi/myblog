@@ -1,37 +1,39 @@
-## Welcome to GitHub Pages
+# saboorazizi.udacityblog
 
-You can use the [editor on GitHub](https://github.com/saboorazizi/saboorazizi.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Blog Project pure CSS and HTML
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Live Links
 
-### Markdown
+The blog content of **Home** and **Post** pages
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- [Homepage](https:/https://saboorazizi.github.io/index.html)
+- [Posts](https:/https://saboorazizi.github.io/posts.html)
 
-```markdown
-Syntax highlighted code block
+### How to create a repo?
 
-# Header 1
-## Header 2
-### Header 3
+#### Create a repository
 
-- Bulleted
-- List
+_Create a repo in your name_
+username.github.io
 
-1. Numbered
-2. List
+#### Clone the repository
 
-**Bold** and _Italic_ and `Code` text
+_Run this "git clone ..." in terminal to clone a copy of your repo_
+git clone https://github.com/saboorazizi/myblog.git
 
-[Link](url) and ![Image](src)
-```
+#### Enter the project folder
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+cd username.github.io
+bring your changes and save the files
 
-### Jekyll Themes
+#### How to push it to GitHub
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/saboorazizi/saboorazizi.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+In your terminal:
+<code>git add --all</code></br>
+<code>git commit -m "Initial commit"</code></br>
+<code>git push -u origin main</code></br>
 
-### Support or Contact
+#### Note
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+For more on how to push and clone a repository visit:
+https://pages.github.com/
