@@ -6,8 +6,8 @@ Blog Project pure CSS and HTML
 
 The blog content of **Home** and **Post** pages
 
-- [Homepage](https:/https://saboorazizi.github.io/myblog/index.html)
-- [Posts](https:/https://saboorazizi.github.io/myblog/posts.html)
+- [Homepage](https://saboorazizi.github.io/myblog/index.html)
+- [Posts](https://saboorazizi.github.io/myblog/posts.html)
 
 ### How to create a repo?
 
