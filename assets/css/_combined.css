@@ -1,2 +1,5 @@
-@import url(main.css);
 @import url(navbar.css);
+@import url(style-small.css);
+@import url(style-med.css);
+@import url(style-large.css);
+@import url(style-general.css);
