@@ -22,11 +22,11 @@ li a {
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: rgb(19, 106, 177);
 }
 
 .active {
-  background-color: #4caf50;
+  background-color: rgb(19, 106, 177);
 }
 
 .dropdown {
