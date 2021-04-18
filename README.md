@@ -19,7 +19,7 @@ username.github.io
 #### Clone the repository
 
 _Run this "git clone ..." in terminal to clone a copy of your repo_
-git clone https://github.com/saboorazizi/myblog.git
+git clone https://github.com/YOUR_GITHUB_USERNAME/myblog.git
 
 #### Enter the project folder
 
