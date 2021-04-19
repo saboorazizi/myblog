@@ -10,12 +10,42 @@
     /* Step 2: setup rows amd columns */
     /* grid-template-columns: repeat(3, 1fr); */
     grid-template-columns: 80% 20%;
-    grid-template-rows: 100px 50px 1200px;
+    grid-template-rows: 100px 50px 100%;
     grid-template-areas:
       "header header"
       "menu menu"
       "content sidebar"
       "footer footer";
     border: 1px solid #dbe2e8;
+  }
+
+  .innergrid {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background-color: #f1f1f1;
+    padding: 1.5vw;
+    margin: 2vw;
+  }
+
+  .innergrid:hover {
+    background-color: #e4e2e2;
+  }
+
+  .text {
+    position: relative;
+    text-align: justify;
+    height: fit-content;
+  }
+
+  .image {
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 0px;
+  }
+
+  .image-alt {
+    font-size: 0.75rem;
+    font-style: italic;
   }
 }

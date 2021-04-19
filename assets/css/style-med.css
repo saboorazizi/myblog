@@ -7,12 +7,18 @@
     /* Step 2: setup rows amd columns */
     /* grid-template-columns: repeat(3, 1fr); */
     grid-template-columns: 70% 30%;
-    grid-template-rows: 100px 50px 1200px;
+    grid-template-rows: 100px 50px 100%;
     grid-template-areas:
       "header header"
       "menu menu"
       "content sidebar"
       "footer footer";
     border: 1px solid #dbe2e8;
+  }
+
+  .innergrid {
+    display: grid;
+    padding: 1.5vw;
+    margin: 2vw;
   }
 }
