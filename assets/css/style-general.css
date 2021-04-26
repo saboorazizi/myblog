@@ -141,13 +141,16 @@ figcaption {
 
 .btn {
   border: none;
+  display: inline;
+  height: 35px;
+  width: 120px;
   background-color: #619ee9;
-  padding: 16px 22px;
-  font-size: 11px;
+  font-size: 15px;
   cursor: pointer;
-  display: inline-block;
+  float: right;
 }
 
 .btn:hover {
   background: #ffb453;
+  color: #e20707;
 }
