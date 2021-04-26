@@ -9,10 +9,12 @@ ul {
 
 li {
   float: left;
+  display: inline;
 }
 
 li a {
   display: block;
+  font-size: 0.8rem;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -20,22 +22,30 @@ li a {
 }
 
 li a:hover {
+  font-size: 0.9rem;
   background-color: #53a1ff;
   color: #000;
 }
 
+.sidebar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 .sidebar ul > li > a {
   color: #00395e;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
+  line-height: 1.5rem;
   font-style: oblique;
   padding: 0;
   margin: 0;
 }
 
 .sidebar ul > li > a:hover {
-  color: #00395e;
-  background-color: transparent;
-  font-size: 0.8rem;
+  color: #000;
+  background-color: #53a1ff;
+  font-size: 0.75rem;
   padding: 0;
   margin: 0;
 }

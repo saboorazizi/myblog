@@ -36,16 +36,4 @@
     text-align: justify;
     height: fit-content;
   }
-
-  .image {
-    padding-right: 25px;
-    padding-left: 25px;
-    padding-top: 25px;
-    padding-bottom: 0px;
-  }
-
-  .image-alt {
-    font-size: 0.75rem;
-    font-style: italic;
-  }
 }
