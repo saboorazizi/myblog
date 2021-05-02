@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="../assets/css/combined.css" rel="stylesheet" />
-    <title>Our Daily Posts</title>
+    <title>Daily Posts</title>
   </head>
   <body>
     <div class="container">
@@ -13,56 +13,48 @@
         <h1>Tech-Blog</h1>
         <div><em>A blog about century technology</em></div>
       </div>
-      <ul class="menu">
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="posts.html">Tech-Blog</a></li>
-      </ul>
-      <div class="sidebar">
-        <h2>Top Stories</h2>
-        <ul>
-          <li><a href="posts.html#post1">MUONS:'STRONG' EVIDENCE</a></li></br>
-          <li><a href="posts.html#post2">NASA'S INGENUITY</a></li></br>
-          <li><a href="posts.html#post3">NASA CHOOSES</a></li></br>
+      <div class="nav">
+        <ul class="menu">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../pages/posts.html">Tech-Blog</a></li>
         </ul>
       </div>
-      <div class="content">
-        <!-- innerGrid start -->
-        <div class="innergrid" id="post1">
-          <!-- content -->
-          <div class="text">
-            <h3>Muons:'Strong' evidence found for a new force of nature</h3>
-            <div class="author pull-right">
-              <b>Published on:</b> <i>Friday 04/16/2021</i>
+      <div class="wrapper">
+        <div class="main">
+          <!-- innerGrid or card elements start -->
+          <div class="innergrid">
+            <!-- content -->
+            <div class="text">
+              <h3>'Strong' evidence found for a new force of nature</h3>
+              <div class="author pull-right">
+                <b>Author:</b> <em>Pallab Ghosh</em> | <i>Friday 04/16/2021</i>
+              </div>
+              <p>
+                All of the forces we experience every day can be reduced to just
+                four categories: gravity, electromagnetism, the strong force and
+                the weak force. Now, physicists say they have found possible
+                signs of a fifth fundamental force of nature.
+              </p>
+              <a href="pages/posts.html#post1">Continue Reading</a>
             </div>
-            <p>
-              From sticking a magnet on a fridge door to throwing a ball into a
-              basketball hoop, the forces of physics are at play in every moment
-              of our lives.
-            </p>
-
-            <div class="author">
-              <b>Author:</b> <em>Pallab Ghosh</em> | <b>Source:</b>
-              <em
-                ><a href="https://www.bbc.com/news/56643677"
-                  >BBC News Science</a
-                ></em
-              >
-            </div>
-
-            <a href="index.html">Back to Homepage</a>
+            <!-- image -->
+            <figure>
+              <img src="../assets/images/tech01.jpg" alt="Muon experiment" />
+              <figcaption>
+                The findings come from the US Muon g-2 experiment
+              </figcaption>
+            </figure>
           </div>
-          <!-- image -->
-          <div class="imgcol">
-            <div class="card">
-              <img src="../assets/images/tech01.jpg" alt="Muon experiment"/>
-                <div class="caption">
-                  <figcaption> The findings come from the US Muon g-2 experiment</figcaption>
-                </div>
-            </div>
+          <!-- innerGrid end -->
+        </div>
+        <div class="sidebar">
+          <div class="content">
+            <h3>Recent Posts</h3>
+            <ul>
+              <li><a>New posts</a></li>
+            </ul>
           </div>
-          </div>
-        <!-- innerGrid end -->
-          <a href="../index.html"><button class="btn">Back</button></a>
+        </div>
       </div>
       <div class="footer">
         <div>(C) 2021 Tech Blog</div>

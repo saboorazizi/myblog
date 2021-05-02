@@ -25,6 +25,7 @@ li a:hover {
   font-size: 0.9rem;
   background-color: #53a1ff;
   color: #000;
+  transition: 0.3s;
 }
 
 .sidebar ul {
@@ -43,8 +44,6 @@ li a:hover {
 }
 
 .sidebar ul > li > a:hover {
-  color: #000;
-  background-color: #53a1ff;
   font-size: 0.75rem;
   padding: 0;
   margin: 0;
