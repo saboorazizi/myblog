@@ -20,20 +20,37 @@
   }
 
   .innergrid {
-    display: grid;
-    grid-template-columns: 60% 40%;
+    display: flex;
+    flex-direction: row;
+    /* grid-template-columns: 60% 40%; */
     background-color: #f1f1f1;
     padding: 1.5vw;
     margin: 2vw;
   }
 
-  .innergrid:hover {
-    background-color: #e4e2e2;
-  }
-
   .text {
-    position: relative;
+    width: 60%;
     text-align: justify;
     height: fit-content;
+  }
+
+  .imgcol {
+    width: 40%;
+  }
+
+  #post1 {
+    order: 2;
+  }
+
+  #post2 {
+    order: 3;
+  }
+
+  #post3 {
+    order: 1;
+  }
+
+  .innergrid:hover {
+    background-color: #e4e2e2;
   }
 }

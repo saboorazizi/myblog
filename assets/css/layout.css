@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1rem;
+  color: #333;
+  background-color: #fff;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: #000;
+}
+
+/* Large Screens */
+@media (min-width: 601px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    filter: drop-shadow(0 0 0.75rem #777);
+    width: 80%;
+    border: 1px solid #e1e2e1;
+  }
+
+  .nav {
+    flex: 1;
+    background-color: #619ee9;
+    filter: drop-shadow(0.2rem 0.2rem 0.75rem gray);
+  }
+
+  .header {
+    flex: 1;
+    background-color: silver;
+  }
+
+  .wrapper {
+    display: flex;
+    height: 100vh;
+    background-color: #fff;
+    padding: 1rem;
+    text-align: justify;
+    z-index: -1;
+  }
+
+  .main {
+    flex: 3;
+    background-color: #f1f1f1;
+  }
+
+  .sidebar {
+    flex: 1;
+    background-color: #f1f1f1;
+    font-size: 0.8rem;
+    padding: 20px;
+    border-left: 1px solid #888;
+    z-index: -1;
+  }
+
+  .footer {
+    flex: 1;
+    background: steelblue;
+    bottom: 0;
+  }
+  .container div {
+    padding: 0.1em;
+  }
+  .innergrid {
+    display: grid;
+    /* grid-template-columns: 60% 40%; */
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 100px 50px;
+    background-color: #f1f1f1;
+    padding: 1.5vw;
+    margin: 2vw;
+  }
+
+  img {
+    max-width: 100%;
+    padding: 0px;
+    border-radius: 7px 7px 0 0;
+  }
+
+  figcaption {
+    padding: 10px;
+    border-radius: 0 0 7px 7px;
+    background-color: #d1d1d1;
+    text-align: justify;
+  }
+
+  /* z-index: -1; */
+  .content1 {
+    flex: 3;
+    order: 3;
+    background-color: #fff;
+    padding: 1rem;
+    text-align: justify;
+    z-index: -1;
+  }
+
+  .sidebar1 {
+    flex: 1;
+    order: 4;
+    background-color: #f1f1f1;
+    font-size: 0.8rem;
+    padding: 20px;
+    border-left: 1px solid #888;
+    z-index: -1;
+  }
+
+  .footer1 {
+    flex: 1;
+    order: 5;
+    background-color: #999;
+    color: #fff;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: lighter;
+  }
+}

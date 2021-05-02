@@ -62,7 +62,6 @@ a:hover {
   background-color: #f1f1f1;
   font-size: 0.8rem;
   padding: 20px;
-  padding-top: 80px;
   border-left: 1px solid #888;
   z-index: -1;
 }
@@ -110,33 +109,6 @@ a:hover {
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-
-img {
-  max-width: 100%;
-  border-radius: 5px 5px 0 0;
-}
-
-.caption {
-  padding: 0 0 2px 8px;
-}
-
-.caption p {
-  font-size: 0.75rem;
-  font-style: italic;
-  padding: 10px;
-}
-
-.image {
-  padding-right: 25px;
-  padding-left: 25px;
-  padding-top: 25px;
-  padding-bottom: 0px;
-}
-
-figcaption {
-  text-align: justify;
-  padding: 5px;
 }
 
 .btn {

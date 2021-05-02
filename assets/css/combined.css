@@ -1,5 +1,9 @@
-@import "style-general.css";
+/* @import "style-general.css";
 @import "navbar.css";
 @import "style-small.css";
 @import "style-med.css";
-@import "style-large.css";
+@import "style-large.css"; */
+
+@import url("./layout.css");
+@import url("./navbar.css");
+/* @import url("./style-general.css"); */
