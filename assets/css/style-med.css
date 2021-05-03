@@ -1,0 +1,16 @@
+/* Medium Screens */
+@media (min-width: 600px) and (max-width: 900px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+  }
+
+  .innergrid {
+    display: grid;
+    padding: 1.5vw;
+    margin: 2vw;
+  }
+}

@@ -1,0 +1,56 @@
+/* Large Screens */
+@media (min-width: 901px) {
+  .container {
+    /* Step 1: Set display to grid */
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    filter: drop-shadow(0 0 0.75rem rgb(97, 96, 96));
+    width: 80%;
+    /* Step 2: setup rows amd columns */
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 100px 50px 100%;
+    grid-template-areas:
+      "header header"
+      "menu menu"
+      "content sidebar"
+      "footer footer";
+    border: 1px solid #dbe2e8;
+  }
+
+  .innergrid {
+    display: flex;
+    flex-direction: row;
+    /* grid-template-columns: 60% 40%; */
+    background-color: #f1f1f1;
+    padding: 1.5vw;
+    margin: 2vw;
+  }
+
+  .text {
+    width: 60%;
+    text-align: justify;
+    height: fit-content;
+  }
+
+  .imgcol {
+    width: 40%;
+  }
+
+  #post1 {
+    order: 2;
+  }
+
+  #post2 {
+    order: 3;
+  }
+
+  #post3 {
+    order: 1;
+  }
+
+  .innergrid:hover {
+    background-color: #e4e2e2;
+  }
+}

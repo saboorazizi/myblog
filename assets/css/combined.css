@@ -4,6 +4,8 @@
 @import "style-med.css";
 @import "style-large.css"; */
 
-@import url("./layout.css");
+@import url("./style-general.css");
 @import url("./navbar.css");
-/* @import url("./style-general.css"); */
+@import url("./style-small.css");
+/* @import url("./style-med.css"); */
+@import url("./layout.css");
