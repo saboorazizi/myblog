@@ -59,20 +59,21 @@ body {
 
   .footer {
     flex: 1;
-    background: #999;
-    color: #fff;
+    background: silver;
+    color: #00395e;
     bottom: 0;
-    padding: 1rem;
-    font-size: 1rem;
+    font-size: 0.8rem;
+    text-transform: uppercase;
     font-weight: lighter;
   }
 
   .container div {
     padding: 0.1em;
   }
-  .innergrid {
+
+  /* Homepage post blocks/cards*/
+  .card {
     display: grid;
-    min-height: max-content;
     /* grid-template-columns: 60% 40%; */
     grid-template-columns: 60% 40%;
     grid-template-rows: auto;
@@ -85,8 +86,19 @@ body {
   }
 
   /* On mouse-over, add a deeper shadow */
-  .innergrid:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+  }
+
+  /* Homepage post blocks/cards*/
+  .innergrid {
+    display: grid;
+    /* grid-template-columns: 60% 40%; */
+    grid-template-columns: 60% 40%;
+    grid-template-rows: auto;
+    grid-template-areas: "text image";
+    background-color: #fbedc5;
+    margin: 1vw;
   }
 
   .content {
@@ -110,6 +122,7 @@ body {
 
   figcaption {
     padding: 10px;
+    margin-bottom: 20px;
     border-radius: 0 0 7px 7px;
     background-color: #d1d1d1;
     text-align: justify;
@@ -123,16 +136,6 @@ body {
     position: relative;
     padding-bottom: 25px;
     color: #00395e;
-  }
-
-  .footer1 {
-    flex: 1;
-    order: 5;
-    background-color: #999;
-    color: #fff;
-    padding: 1rem;
-    font-size: 1rem;
-    font-weight: lighter;
   }
 
   a {
