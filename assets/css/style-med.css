@@ -13,4 +13,12 @@
     padding: 1.5vw;
     margin: 2vw;
   }
+
+  .innergrid:hover {
+    background-color: #e4e2e2;
+  }
+
+  .text {
+    text-align: justify;
+  }
 }
